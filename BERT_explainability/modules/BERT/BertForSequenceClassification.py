@@ -31,7 +31,8 @@ class BertForSequenceClassification(BertPreTrainedModel):
             labels=None,
             output_attentions=None,
             output_hidden_states=None,
-            return_dict=None,
+            # return_dict=None,
+            return_dict=False
     ):
         r"""
         labels (:obj:`torch.LongTensor` of shape :obj:`(batch_size,)`, `optional`):
